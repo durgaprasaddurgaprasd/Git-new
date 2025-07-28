@@ -1,7 +1,13 @@
 class Main
 {
-  public void display()
+  Main()
 {
-System.out.println("hi this is display method");
+System.out.println("this is constructor");
 }
+public static void main(String args[])
+{
+  Main m=new Main();
+  m.display();
+}
+
 }
